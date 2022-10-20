@@ -1,0 +1,188 @@
+/* Style Keseluruhan */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6A2C70   ;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.wrapper {
+    width: 100%;
+    align-content: space-between;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    background-color: #6A2C70;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    z-index: 1;
+    border-bottom: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.kolom {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 5px 0px;
+    padding: 10px 0px 5px 0px;
+}
+
+/* ini style untuk mahasiswa */
+
+.tengah {
+    text-align: center;
+    width: 100;
+}
+
+.mhs_list {
+    width: 100;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card_mhs {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.card_mhs img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.card_mhs p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: #6A2C70;
+    color: aliceblue;
+    margin-top: 200px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img1 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/971.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+.img2 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/18.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+.img3 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/87399.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+.img4 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/999.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
